@@ -1,12 +1,45 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-</head>
     <meta charset="UTF-8">
     <meta content="origin" name=referrer">
-    <meta content= "/images/googlelogo.png">
+    <meta content= "./images/googlelogo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     <title>Google</title>
-    
+</head>
 <body>
+    <!-- Header at top-->
+    <div id="header-bar">
+        <div id="header-left">
+            <a href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">About</a>
+            <a href="https://store.google.com/CA/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA">Store</a>
+        </div>
+        <div id="header-right">
+            <a href="https://mail.google.com/mail/u/0/?tab=wm&ogbl#inbox">Gmail</a>
+            <a href="https://www.google.ca/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a>
+            <a id="app-icon" href="https://www.google.ca/intl/en/about/products?tab=wh" title="Google apps" aria-expanded="false" role="button" tabindex="0"></a>
+        </div>
+    </div>
+    <!-- body -->
+    <div id="logo-content">
+        <img id="logo" src="./images/googlelogo.png">
+    </div>
+    <div class="search-section" id="search-content">
+        <form class="search-form">
+            <div class="search">
+                <a id="search-icon"></a>
+                <input class="input-search" text="text" name="search-results">
+            </div>
+        </form>
+    </div>
+    <div id="button-content" class="buttons-section">
+        <div>
+            <button class="gbutton">Google Search</button>
+            <button class="gbutton">I'm Feeling Lucky</button>            
+        </div>
+    </div>
 
 
 </body>
