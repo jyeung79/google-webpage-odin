@@ -34,15 +34,6 @@ html, body {
     opacity: 0.75;
 }
 
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration:underline;
-}
-
-
 #header-right {
     display: flex;
     float:right;
@@ -220,4 +211,12 @@ div.footer-section {
     text-decoration: none;
     vertical-align: middle;
     line-height: 38px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:underline;
 }
